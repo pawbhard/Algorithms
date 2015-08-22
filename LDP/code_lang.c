@@ -12,13 +12,6 @@ int num_pos(int *a, int size)
     if(temp > 26)
         temp = -1;
     
-    /*if(size == 2)
-    {
-        if(temp == -1)
-            return 1;
-        else 
-            return 2;
-    }*/
    if(temp != -1)
         ans = num_pos(&a[1] , size-1) + num_pos(&a[2], size-2) ;
    else  
