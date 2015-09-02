@@ -4,6 +4,8 @@
 #define MAX(a,b)  (a) > (b) ? (a) : (b)
 int lsc_rec(char *a, char *b, int sz_a, int sz_b)
 {
+
+    printf("Called sz_a : %d sz_b : %d \n",sz_a,sz_b);
     if(sz_a == -1 || sz_b == -1)
         return 0;
 

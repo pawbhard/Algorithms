@@ -33,6 +33,7 @@ int lsc_rec(char *a, char *b)
         }
     }
 
+    int ans =  mem[sz_a-1][sz_b-1];
     Q_LOG("Printing matrix\n");
     
     for(sz_b = -1; sz_b <len_b ; sz_b++)
@@ -53,7 +54,7 @@ int lsc_rec(char *a, char *b)
         printf("\n");
     }
     printf("\n");
-    return mem[len_a-1][len_b-1];
+    return ans;
 }
 
 void main(int argc, char *argv[])
