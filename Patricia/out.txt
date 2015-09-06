@@ -1,0 +1,154 @@
+
+Inserting 10
+ insert(35): Inserting 10
+ insert(40): Initial case
+
+Printing Paricia
+  -> 10 (-1)
+
+Inserting 3
+ insert(35): Inserting 3
+ insert(49): Case 2
+
+Printing Paricia
+  -> 10 (-1)  -> 3 (0)
+
+Inserting 6
+ insert(35): Inserting 6
+ insert(65): prev_bit -1 new bit 0
+ insert(79): Movin in direction 0 
+ insert(65): prev_bit 0 new bit -1
+ insert(90): Setting bit to (pt->value= 10, x =6 :  2
+ insert(97): prev_bit -1 new bit 0
+ insert(102): Movin in direction 0 
+ insert(104): About pt value = 3 , bit = 0, left->bit = -1, right->bit = 0, left->value = 10, right->vlaue = 3
+ insert(110): Inside If
+ insert(133): Prev node 3 
+ insert(146): Changing left pointers of 3
+ insert(149): Changing left pointers of 6
+
+Printing Paricia
+  -> 10 (-1)  -> 6 (2)  -> 3 (0)
+
+Inserting 2
+ insert(35): Inserting 2
+ insert(65): prev_bit -1 new bit 0
+ insert(79): Movin in direction 0 
+ insert(65): prev_bit 0 new bit 2
+ insert(79): Movin in direction 0 
+ insert(65): prev_bit 2 new bit -1
+ insert(90): Setting bit to (pt->value= 10, x =2 :  3
+ insert(97): prev_bit -1 new bit 0
+ insert(102): Movin in direction 0 
+ insert(104): About pt value = 3 , bit = 0, left->bit = 2, right->bit = 0, left->value = 6, right->vlaue = 3
+ insert(97): prev_bit 0 new bit 2
+ insert(102): Movin in direction 0 
+ insert(104): About pt value = 6 , bit = 2, left->bit = -1, right->bit = 2, left->value = 10, right->vlaue = 6
+ insert(110): Inside If
+ insert(133): Prev node 6 
+ insert(146): Changing left pointers of 6
+ insert(152): Changing right pointers of 2
+
+Printing Paricia
+  -> 2 (3)  -> 10 (-1)  -> 6 (2)  -> 3 (0)
+
+Inserting 5
+ insert(35): Inserting 5
+ insert(65): prev_bit -1 new bit 0
+ insert(79): Movin in direction 1 
+ insert(65): prev_bit 0 new bit 0
+ insert(90): Setting bit to (pt->value= 3, x =5 :  1
+ insert(97): prev_bit -1 new bit 0
+ insert(102): Movin in direction 1 
+ insert(104): About pt value = 3 , bit = 0, left->bit = 2, right->bit = 0, left->value = 6, right->vlaue = 3
+ insert(97): prev_bit 0 new bit 0
+ insert(102): Movin in direction 1 
+ insert(104): About pt value = 3 , bit = 0, left->bit = 2, right->bit = 0, left->value = 6, right->vlaue = 3
+ insert(133): Prev node 3 
+ insert(135): Changing right pointers of 3
+ insert(141): Changing right pointers of 5
+
+Inserting 8
+ insert(35): Inserting 8
+ insert(65): prev_bit -1 new bit 0
+ insert(79): Movin in direction 0 
+ insert(65): prev_bit 0 new bit 2
+ insert(79): Movin in direction 0 
+ insert(65): prev_bit 2 new bit 3
+ insert(79): Movin in direction 8 
+ insert(65): prev_bit 3 new bit -1
+ insert(90): Setting bit to (pt->value= 10, x =8 :  1
+ insert(97): prev_bit -1 new bit 0
+ insert(102): Movin in direction 0 
+ insert(104): About pt value = 3 , bit = 0, left->bit = 2, right->bit = 1, left->value = 6, right->vlaue = 5
+ insert(110): Inside If
+ insert(133): Prev node 3 
+ insert(146): Changing left pointers of 3
+ insert(152): Changing right pointers of 8
+
+Inserting 1
+ insert(35): Inserting 1
+ insert(65): prev_bit -1 new bit 0
+ insert(79): Movin in direction 1 
+ insert(65): prev_bit 0 new bit 1
+ insert(79): Movin in direction 0 
+ insert(65): prev_bit 1 new bit 1
+ insert(90): Setting bit to (pt->value= 5, x =1 :  2
+ insert(97): prev_bit -1 new bit 0
+ insert(102): Movin in direction 1 
+ insert(104): About pt value = 3 , bit = 0, left->bit = 1, right->bit = 1, left->value = 8, right->vlaue = 5
+ insert(97): prev_bit 0 new bit 1
+ insert(102): Movin in direction 0 
+ insert(104): About pt value = 5 , bit = 1, left->bit = 1, right->bit = 0, left->value = 5, right->vlaue = 3
+ insert(97): prev_bit 1 new bit 1
+ insert(102): Movin in direction 0 
+ insert(104): About pt value = 5 , bit = 1, left->bit = 1, right->bit = 0, left->value = 5, right->vlaue = 3
+ insert(110): Inside If
+ insert(133): Prev node 5 
+ insert(146): Changing left pointers of 5
+ insert(152): Changing right pointers of 1
+
+Inserting 12
+ insert(35): Inserting 12
+ insert(65): prev_bit -1 new bit 0
+ insert(79): Movin in direction 0 
+ insert(65): prev_bit 0 new bit 1
+ insert(79): Movin in direction 0 
+ insert(65): prev_bit 1 new bit 1
+ insert(90): Setting bit to (pt->value= 8, x =12 :  2
+ insert(97): prev_bit -1 new bit 0
+ insert(102): Movin in direction 0 
+ insert(104): About pt value = 3 , bit = 0, left->bit = 1, right->bit = 1, left->value = 8, right->vlaue = 5
+ insert(97): prev_bit 0 new bit 1
+ insert(102): Movin in direction 0 
+ insert(104): About pt value = 8 , bit = 1, left->bit = 1, right->bit = 2, left->value = 8, right->vlaue = 6
+ insert(97): prev_bit 1 new bit 1
+ insert(102): Movin in direction 0 
+ insert(104): About pt value = 8 , bit = 1, left->bit = 1, right->bit = 2, left->value = 8, right->vlaue = 6
+ insert(110): Inside If
+ insert(133): Prev node 8 
+ insert(146): Changing left pointers of 8
+ insert(149): Changing left pointers of 12
+
+Printing Paricia
+  -> 8 (1)  -> 12 (2)  -> 2 (3)  -> 10 (-1)  -> 6 (2)  -> 1 (2)  -> 5 (1)  -> 3 (0)
+
+Deleting 10
+ delete_node(172): Parent is 2 to be deleted 10
+ delete_node(201): Starting from left parent->bit : 3
+ delete_node(204): Node is 3
+ delete_node(209): Moving in direction 0
+ delete_node(210): Prevvious bit for comparison : 0
+ delete_node(212): Bit of left one is 1
+ delete_node(204): Node is 8
+ delete_node(209): Moving in direction 2
+ delete_node(210): Prevvious bit for comparison : 1
+ delete_node(219): Bit of right one is 2
+ delete_node(204): Node is 6
+ delete_node(209): Moving in direction 0
+ delete_node(210): Prevvious bit for comparison : 2
+ delete_node(212): Bit of left one is 3
+ delete_node(228): Gparent is 6
+
+Printing Paricia
+  -> 8 (1)  -> 12 (2)  -> 2 (-1)  -> 6 (2)  -> 1 (2)  -> 5 (1)  -> 3 (0)
